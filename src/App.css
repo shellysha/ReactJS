@@ -1,0 +1,80 @@
+html,body {
+    margin: 0 auto;
+    background-color: #8abea9;
+    color: rgb(255, 255, 255);
+    font-family: Calibri;
+    padding-bottom: 80px;
+}
+
+
+h1,h2,h3,h4,h5,h6{
+    text-align: center;
+}
+
+
+.logOutIcon{
+    font-size: 18px;
+    margin-left: 5px;
+}
+
+/* -----footer styles------ */
+.footer {
+    background-color: #4b685c;
+    border-top: 1px solid #E7E7E7;
+    text-align: center;
+    padding: 10px;
+    margin-top: -80px;
+    height: 80px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    box-sizing: border-box;
+}
+
+.social{
+    font-size: 20px;
+    padding-bottom: 8px;
+}
+a{
+    color: #ffffff;
+    margin: 5px;
+    opacity: 0.5;
+}
+a:hover {
+    opacity: 1;
+    color: #ffffff;
+}
+.copyright{
+    margin-right: 5px;
+}
+.ml{
+    font-size: 23px;
+}
+
+
+/* -----cards styles------ */
+.card{
+    border-radius: 10px;
+    background-color: rgb(240, 240, 240);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 50px; 
+}
+
+ .card-body{
+    text-align: center;
+ }
+ .card-text, .card-title{
+     color: #264237;
+     margin-bottom: 7px;
+     font-size: 17px;
+     
+ }
+.removeCardIcon{
+    opacity: 0.5;
+}
+.removeCardIcon:hover {
+    opacity: 1;
+    
+}
+
